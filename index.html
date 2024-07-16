@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/normalize.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Conversor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Conversor de pesos CLP</h1>
+        <div class="contenedorFlex">
+            <input id="monto" placeholder="Ingrese el monto en CLP"/>
+            <select name="moneda" id="moneda">Seleccione tipo de cambio
+            </select>
+            <button id="btnConvertir">Convertir</button>
+            <div id="resultado"></div>
+        </div>
+    </div>
+    <div class="grafica">
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+
+</body>
+</html>
